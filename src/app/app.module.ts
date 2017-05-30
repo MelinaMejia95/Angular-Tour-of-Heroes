@@ -24,7 +24,7 @@ import { HeroSearchComponent }  from './hero-search.component';
     InMemoryWebApiModule.forRoot(InMemoryDataService),
     AppRoutingModule
   ],
-  declarations: [
+  declarations: [ //Componentes importados de la app
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
@@ -32,6 +32,6 @@ import { HeroSearchComponent }  from './hero-search.component';
     HeroSearchComponent
   ],
   providers: [ HeroService ],
-  bootstrap: [ AppComponent ]
+  bootstrap: [ AppComponent ] //Cuando inicia la app empieza en este componente
 })
 export class AppModule { }

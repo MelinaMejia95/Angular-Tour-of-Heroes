@@ -1,5 +1,7 @@
 import { Component }          from '@angular/core';
+//Inicio de Decorador
 @Component({
+  //Inicio de Metadata
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
@@ -11,6 +13,9 @@ import { Component }          from '@angular/core';
   `,
   styleUrls: ['./app.component.css']
 })
+//Fin decorador
+
+//Definición de la clase
 export class AppComponent {
   title = 'Tour of Heroes';
 }
