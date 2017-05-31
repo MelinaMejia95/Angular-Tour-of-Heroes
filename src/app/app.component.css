@@ -20,6 +20,9 @@ nav a {
   background-color: #4169E1;
   border-radius: 4px;
   color: #FFFFFF;
+  height: 30px;
+  font-size: 28px;
+  margin-bottom: 10px
 }
 nav a:visited, a:link {
   color: #FFFFFF;
@@ -30,4 +33,5 @@ nav a:hover {
 }
 nav a.active {
   color: #FFFFFF;
+  background-color: #0e2058;
 }

@@ -4,6 +4,7 @@ label {
   margin: .5em 0;
   color: #607D8B;
   font-weight: bold;
+  margin-right: 30px;
 }
 input {
   height: 2em;
@@ -26,4 +27,8 @@ button:disabled {
   background-color: #eee;
   color: #ccc; 
   cursor: auto;
+}
+img {
+  height: 500px;
+  width: 500px;
 }
