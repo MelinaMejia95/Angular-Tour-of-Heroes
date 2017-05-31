@@ -17,5 +17,5 @@ import { Component }          from '@angular/core';
 
 //Definición de la clase
 export class AppComponent {
-  title = 'Tour of Heroes';
+  title = 'MARVEL TOUR OF HEROES';
 }
