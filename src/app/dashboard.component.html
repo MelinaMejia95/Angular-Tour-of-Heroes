@@ -1,9 +1,25 @@
-<h3>Top Heroes</h3>
+<!-- <h3>Top Heroes</h3>
+ <div ng-app="app">
+  <div ng-controller="CarouselDemoCtrl" id="slides_control">
+    <div>
+      <carousel interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.image}}">
+          <div class="carousel-caption">
+            <h4>Slide {{$index+1}}</h4>
+          </div>
+        </slide>
+      </carousel>
+    </div>
+  </div>
+</div>  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.8/angular.min.js"></script>
+<script type="text/javascript" src="dashborad.component.js"></script>  -->
 <div class="grid grid-pad">
   <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-4">
     <div class="module hero">
       <h4>{{hero.name}}</h4>
     </div>
   </a>
-</div>
-<hero-search></hero-search>
+</div> 
+<hero-search></hero-search> 

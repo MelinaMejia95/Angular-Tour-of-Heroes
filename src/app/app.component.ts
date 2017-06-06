@@ -10,6 +10,9 @@ import { Component }          from '@angular/core';
       <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
     </nav>
     <router-outlet></router-outlet>
+    <footer>
+      2017 Angular Tour Of Heroes
+    </footer>
   `,
   styleUrls: ['./app.component.css']
 })

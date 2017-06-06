@@ -7,6 +7,7 @@
   padding: 5px;
   background-color: white;
   cursor: pointer;
+
 }
 .search-result:hover {
   color: #eee;
@@ -15,4 +16,5 @@
 #search-box{
   width: 200px;
   height: 20px;
+  margin-bottom: 40px;
 }

@@ -35,3 +35,10 @@ nav a.active {
   color: #FFFFFF;
   background-color: #0e2058;
 }
+footer {
+  clear: both;
+  text-align: center;
+  padding: 16px;
+  background-color: #000;
+  color: #fff;
+}
